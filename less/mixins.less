@@ -1,1 +1,31 @@
 // Mixins Here
+
+.a-tags-mixin() {
+    display: flex;
+    width: 39%;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding-top: 1.5%;
+}
+
+.font-style() {
+    text-decoration: none;
+    color: black;
+}
+
+.button(@bg-color, @size, @font-color) {
+    display: flex;
+    background-color: @bg-color;
+    width: @size;
+    color: @font-color;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: @font-color;
+        color: @bg-color;
+    }
+}
