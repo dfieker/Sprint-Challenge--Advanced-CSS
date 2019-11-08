@@ -13,3 +13,19 @@
     color: black;
 }
 
+.button(@bg-color, @size, @font-color) {
+    display: flex;
+    background-color: @bg-color;
+    width: @size;
+    color: @font-color;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: @font-color;
+        color: @bg-color;
+    }
+}
