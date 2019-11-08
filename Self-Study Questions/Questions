@@ -1,9 +1,19 @@
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    Adaptive websites don't accomodate for thousands of devices like responsive websites do. Adaptive websites accommodate specific devices. Also, adaptive websites are quick to deploy, but responsive websites take longer to build. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    Mobile first means that you design and code a website for a mobile device first and then you expand layout or features as the screen space increases more towards a desktop. Desktop first means that you design and code a website for a desktop first and then you modify and scale down the website so that it can adapt to other devices.
 
 3. What does font-size: 62.5% in the html tag do for us when using rem units?
 
+    It allows us to convert rem units by the power of 10 instead of 16. This makes using rem much easier to calculate versus em.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing is where we use another language to write our code and then a compiler converts that language into normal CSS. Preprocessing is a more robust syntax for CSS written in another language. We use preprocessing because it helps us with our productivity and accuracy. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    My favorite concept is parametric mixins. The concept that gives me the most trouble is the Nested At-Rules and Bubbling.
