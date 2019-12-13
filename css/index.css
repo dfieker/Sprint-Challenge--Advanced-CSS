@@ -330,3 +330,9 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.About-Us-Intro img {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
