@@ -1,0 +1,14 @@
+Self-Study Questions
+Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+
+1. What is the difference between an adaptive website and a fully responsive website? = An adaptive website's layout widths are still hardcoded at each media query, and it has quick deployment for specific devices. A fully responsive website uses responsive units throughout the site, and it accommodates thousands of devices and takes longer to build.
+
+2. Describe what it means to be mobile first vs desktop first. = Mobile first is when you design a site with a mobile device in mind first and then you change the layout as the screen expands. It uses min-width media queries. Desktop first is when you design a site with a desktop in mind first and then you change the layout as the screen minimizes. It uses max-width media queries.
+
+3. What does font-size: 62.5% in the html tag do for us when using rem units? = It converts rem units by the power of 10 instead of 16, which makes our calculations easier.
+
+4. How would you describe preprocessing to someone new to CSS? = It provides more syntax for CSS written in a different language. It makes developing websites easier, more efficient, and it lowers the probabitlity of errors. The language we use to write our code is then compiled into normal CSS.
+
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? = My favorite concept is the organization of all of the code. It separates things well and makes working with the code more manageable. The nested at-rules give me the most trouble.
