@@ -1,1 +1,21 @@
 // Mixins Here
+.background() {
+    background: #EFF4F5;
+}
+
+.display-flex() {
+    display: flex;
+}
+
+//Parametric Mixin//
+.btn-layout(@bgcolor, @width, @font-color) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: @bgcolor;
+    width: @width;
+    color: @font-color;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    height: 40px;
+}
